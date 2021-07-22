@@ -29,6 +29,28 @@
       >
     </p>
   </video>
+</body>
+  
+//script tag for theta cdn on vjs
+  
+<script>
+  const optionalHlsOpts = null;
+  const player = window.player = videojs('my-player', {
+          techOrder: ["theta_hlsjs", "html5"],
+          sources: [{
+            src: "YOUR_VIDEO_URL", //ths will be automatic
+            type: "application/vnd.apple.mpegurl",
+            label: "1080p"
+          }],
+          theta_hlsjs: {
+              videoId: "YOUR_INTERNAL_VIDEO_ID", //ths will be automatic
+              userId: "YOUR_AUTHED_USER_ID", //ths will be a special account for this project
+              walletUrl: "wss://api-wallet-service.thetatoken.org/theta/ws",
+              onWalletAccessToken: getWalletAccessToken,
+              hlsOpts: optionalHlsOpts
+          }
+      });
+</script>
 
  
 // script on github  
@@ -39,4 +61,5 @@
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta.umd.min.js"></script>
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta-hls-plugin.umd.min.js"></script>
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/videojs-theta-plugin.min.js"></script>
+  
 </html>
