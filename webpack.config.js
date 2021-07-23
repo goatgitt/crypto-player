@@ -13,7 +13,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js', "", ".webpack.js", ".web.js", ".ts"],
+    extensions: ['.tsx', '.ts', '.js', "", ".webpack.js", ".web.js"],
   },
   output: {
     filename: 'script.js',
