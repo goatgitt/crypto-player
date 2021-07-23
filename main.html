@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  //stylesheet for vjs player like
+  <!--stylesheet for vjs player like -->
   <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
-  // script on github
+  <!-- script on github -->
   <link rel='stylesheet' href='./css/style.css'>
   
 </head>
   
-//video tag from video.js
+<!-- video tag from video.js -->
 <body>
   <video
     id="my-video"
@@ -20,8 +20,8 @@
     poster="MY_VIDEO_POSTER.jpg"
     data-setup="{}"
   >
-    <source src="MY_VIDEO.mp4" type="video/mp4" /> //ths will be automatic
-    <source src="MY_VIDEO.webm" type="video/webm" /> //ths will be automatic
+    <source src="MY_VIDEO.mp4" type="video/mp4" /> <!-- ths will be automatic -->
+    <source src="MY_VIDEO.webm" type="video/webm" /> <!-- ths will be automatic -->
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
       web browser that
@@ -32,20 +32,20 @@
   </video>
 </body>
   
-//script tag for theta cdn on vjs
+<!-- script tag for theta cdn on vjs -->
   
 <script>
   const optionalHlsOpts = null;
   const player = window.player = videojs('my-player', {
           techOrder: ["theta_hlsjs", "html5"],
           sources: [{
-            src: "YOUR_VIDEO_URL", //ths will be automatic
+            src: "YOUR_VIDEO_URL", <!-- ths will be automatic -->
             type: "application/vnd.apple.mpegurl",
             label: "1080p"
           }],
           theta_hlsjs: {
-              videoId: "YOUR_INTERNAL_VIDEO_ID", //ths will be automatic
-              userId: "YOUR_AUTHED_USER_ID", //ths will be a special account for this project
+              videoId: "YOUR_INTERNAL_VIDEO_ID", <!-- ths will be automatic -->
+              userId: "YOUR_AUTHED_USER_ID", <!-- ths will be a special account for this project -->
               walletUrl: "wss://api-wallet-service.thetatoken.org/theta/ws",
               onWalletAccessToken: getWalletAccessToken,
               hlsOpts: optionalHlsOpts
@@ -54,11 +54,11 @@
 </script>
 
  
-// script on github  
+<!--  script on github  -->
 <script src="./js/script1.js"></script> 
-//vjs javascript
+<!-- vjs javascript -->
 <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
-//theta required scripts
+<!-- theta required scripts -->
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta.umd.min.js"></script>
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta-hls-plugin.umd.min.js"></script>
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/videojs-theta-plugin.min.js"></script>
