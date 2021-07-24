@@ -5,7 +5,7 @@
    "main": "index.js",
    "private": true,
    "scripts": {
-     "build" : "webpack && next build",,
+     "build" : "webpack && next build",
      "dev": "next dev",
      "start": "next start"
    },
