@@ -3,26 +3,21 @@
     "outDir": "./",
     "noImplicitAny": true,
     "sourceMap": true,
-    "module": "es6",
+    "module": ["es6", "esnext"],
     "target": "es5",
-    "jsx": "react",
+    "jsx": ["react", "preserve"],
     "allowJs": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
     "baseUrl": "."
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
-}
-  }
 }
