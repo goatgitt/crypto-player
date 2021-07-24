@@ -10,7 +10,7 @@
    "scripts": {
      "build" : "webpack && next build",
      "dev": "next dev",
-     "start": "next start"
+     "start": "next start",
    },
   "dependencies": {
     "@mux/mux-node": "^2.8.0",
@@ -28,7 +28,7 @@
     "theme-ui": "^0.3.1",
     "video.js": "^7.9.7",
     "videojs-contrib-quality-levels": "^2.0.9",
-    "videojs-hls-quality-selector": "^1.1.4"
+    "videojs-hls-quality-selector": "^1.1.4",
   },
   "devDependencies": {
     "@types/node": "^14.0.14",
