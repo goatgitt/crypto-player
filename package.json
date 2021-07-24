@@ -4,6 +4,9 @@
    "description": "",
    "main": "index.js",
    "private": true,
+   "keywords": [],
+   "author": "",
+   "license": "AGPL 3.0",
    "scripts": {
      "build" : "webpack && next build",
      "dev": "next dev",
@@ -35,6 +38,4 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
   }
-   "author": "",
-   "license": "AGPL 3.0",
 }
