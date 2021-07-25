@@ -8,7 +8,7 @@
   "author": "",
   "license": "AGPL 3.0",
   "scripts": {
-    "builds" : ["webpack " and "next build"],
+    "builds" : "webpack ",
     "dev": "next dev",
     "start": "next start"
   },
