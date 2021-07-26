@@ -20,3 +20,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 };
+plugins: [
+  new webpack.ProvidePlugin({
+    "React": "react",
+  }),
+],
