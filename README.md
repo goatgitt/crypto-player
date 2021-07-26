@@ -6,3 +6,4 @@ https://videojs.com/getting-started/<p></p>
 https://github.com/livepeer/file-video<p></p>
 https://webpack.js.org/guides/getting-started/<p></p>
 https://webpack.js.org/guides/typescript/ <p></p>
+the project is on preprod on this platform : https://stackblitz.com/github/goatgitt/crypto-player <p></p>
