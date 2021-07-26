@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["react/next", "react-dom/next"]
+    "types": ["react/next", "react-dom/next"],
     "outDir": "./dist/",
     "noImplicitAny": true,
     "sourceMap": true,
