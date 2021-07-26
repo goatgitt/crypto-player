@@ -13,6 +13,7 @@ module.exports = {
     ],
   },
   resolve: {
+    modules: ["node_modules",path.resolve(__dirname, "app")],
     extensions: ['.tsx', '.ts', '.js', "", ".webpack.js", ".web.js"],
   },
   output: {
