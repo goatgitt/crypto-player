@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Container, NavLink, Flex, Link as A, Text, Box } from "theme-ui";
 import Head from "next/head";
