@@ -19,9 +19,9 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-plugins: [
-  new webpack.ProvidePlugin({
-    "React": "react",
-  }),
-],
+  plugins: [
+    new webpack.ProvidePlugin({
+      "React": "react",
+    }),
+  ],
 };
