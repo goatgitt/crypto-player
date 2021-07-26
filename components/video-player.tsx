@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { Link as A, jsx, IconButton } from "theme-ui";
 import { useEffect, useRef, useCallback, useState } from "react";
