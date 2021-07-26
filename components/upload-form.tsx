@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { Button, Box, jsx } from "theme-ui";
 import { useEffect, useRef, useState, useMemo } from "react";
