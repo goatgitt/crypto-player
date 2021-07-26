@@ -1,6 +1,6 @@
 import { ThemeProvider } from "theme-ui";
 import theme from "lib/theme";
-import "css/global.css";
+import "css/style.css";
 import 'video.js/dist/video-js.css';
 import * as gtag from "../lib/gtag"
 import { useEffect } from "react"
