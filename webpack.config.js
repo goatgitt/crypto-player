@@ -12,10 +12,6 @@ module.exports = {
       },
     ],
   },
-  externals: {
-  "react": "React",
-  "react-dom": "ReactDOM"
-},
   resolve: {
     extensions: ['.tsx', '.ts', '.js', "", ".webpack.js", ".web.js"],
   },
