@@ -18,3 +18,6 @@ async function getWalletAccessToken() {
     //Return the access token from the request body
     return body.access_token;
 }
+//react
+var React = require('react');
+var ReactDOM = require('react-dom');
