@@ -6,28 +6,27 @@ import Link from "next/link";
 
 const MainLogo = ({ pushSx }: { pushSx?: SxStyleProp }) => (
   <Link href="/">
-    <a>
-      <svg
-        version="1.1"
-        id="Layer_1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        width="57px"
-        height="57px"
-        viewBox="0 0 578 734"
-        enable-background="new 0 0 578 734"
-        xmlSpace="preserve"
-      >
-        {" "}
-        <image
-          id="image0"
-          width="578"
-          height="734"
-          x="0"
-          y="0"
-          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkIAAALeCAYAAABGA344AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+    <svg
+      version="1.1"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      width="57px"
+      height="57px"
+      viewBox="0 0 578 734"
+      enable-background="new 0 0 578 734"
+      xmlSpace="preserve"
+    >
+      {" "}
+      <image
+        id="image0"
+        width="578"
+        height="734"
+        x="0"
+        y="0"
+        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkIAAALeCAYAAABGA344AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAACA
 AElEQVR42uz9d5xtyV3fe3+qaq21Q8eT0+QgTVDWSCgBAoERGHyFbUD4Gl/wY2McnuvHfnQxfvD1
 tY2FJZLBBImMJBRQHElIYhTQSBM0I02OZ07u0znvvFeqquePtbtP90lz5oTp9Hvr1dqnu9fsXmv3
@@ -1486,9 +1485,8 @@ hBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQ
 QgghhBBCCCGEEEIIIYQQQgghhBBCCCF2pv8/fjSJlpfF0IkAAAAldEVYdGRhdGU6Y3JlYXRlADIw
 MjEtMDctMjlUMTY6MTE6NTMrMDA6MDAyY4nMAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTA3LTI5
 VDE2OjExOjUzKzAwOjAwQz4xcAAAAABJRU5ErkJggg=="
-        />
-      </svg>
-    </a>
+      />
+    </svg>
   </Link>
 );
 
