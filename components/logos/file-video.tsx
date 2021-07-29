@@ -2,10 +2,16 @@
 /** @jsx jsx */
 import { jsx, SxStyleProp } from "theme-ui";
 
-const FileVideoLogo = ({pushSx,id}: {pushSx?: SxStyleProp; id?: string;}) => (
+const FileVideoLogo = ({
+  pushSx,
+  id
+}: {
+  pushSx?: SxStyleProp;
+  id?: string;
+}) => (
   <svg
     width="101"
-    height="26"
+    height="27"
     viewBox="0 0 101 26"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
