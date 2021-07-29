@@ -162,12 +162,13 @@ export default function Layout({
           </Text>
           <Text variant="small">
             <A
-              href="https://github.com/livepeer/file-video"
+              href="https://github.com/goatgitt/crypto-player"
               target="_blank"
               rel="noopener"
               sx={{ display: ["none", "flex"], alignItems: "center" }}
             >
-              <GitHubLogo pushSx={{ mr: 2 }} /> github.com/livepeer/file-video
+              <GitHubLogo pushSx={{ mr: 2 }} />{" "}
+              github.com/goatgitt/crypto-player
             </A>
           </Text>
         </footer>
