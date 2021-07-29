@@ -26,10 +26,10 @@ interface Props {
 }
 
 Layout.defaultProps = {
-  metaTitle: "file.video",
-  metaDescription: "Decentralized Video hosting for everyone.",
-  url: "https://file.video",
-  image: "https://file.video/OG.png"
+  metaTitle: "crypto player",
+  metaDescription: "Decentralized Video hosting and delivering for everyone.",
+  url: "https://github.com/goatgitt/crypto-player",
+  image: "https://github.com/goatgitt/crypto-playerg"
 };
 
 export default function Layout({
@@ -63,7 +63,7 @@ export default function Layout({
     <Box sx={{ bg: "background", minHeight: "100vh" }}>
       {withParticlesBackground && <ParticlesBackground error={error} />}
       <Head>
-        <title>file.video</title>
+        <title>crypto player</title>
         <link rel="icon" href="/favicon.png" />
         {metaTitle && <meta property="og:title" content={metaTitle} />}
         {metaTitle && <meta property="twitter:title" content={metaTitle} />}
