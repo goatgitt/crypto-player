@@ -8,8 +8,8 @@ const Theta_TokenLogo = ({ pushSx }: { pushSx?: SxStyleProp }) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 433 433"
-    width="2500"
-    height="2500"
+    width="43"
+    height="43"
   >
     <defs>
       <linearGradient
