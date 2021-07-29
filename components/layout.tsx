@@ -168,32 +168,47 @@ export default function Layout({
             </Text>
             <Text
               sx={{
+                ml: "2px",
                 color: "transparent",
-                height: "5px"
+                height: "5px",
+                alignItems: "center"
               }}
             >
               line{"\n"}break
             </Text>
-            <Text sx={{ display: "flex", alignItems: "start" }} variant="small">
-              With the help of the projects :
+            <Text
+              sx={{ display: "flex", alignItems: "center" }}
+              variant="small"
+            >
+              <Text
+                sx={{ display: "flex", alignItems: "start" }}
+                variant="small"
+              >
+                With the help of the projects :
+              </Text>
+              <A
+                href="https://file.video/"
+                target="_blank"
+                rel="noopener"
+                sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+              >
+                <FileVideoLogo pushSx={{ mr: 2 }} />
+              </A>
+              &nbsp;&
+              <A
+                href="https://videojs.com/"
+                target="_blank"
+                rel="noopener"
+                sx={{
+                  ml: "12px",
+                  display: "flex",
+                  alignItems: "center",
+                  height: "30%"
+                }}
+              >
+                <VideoJSLogo pushSx={{ mr: 2 }} />
+              </A>
             </Text>
-            <A
-              href="https://file.video/"
-              target="_blank"
-              rel="noopener"
-              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
-            >
-              <FileVideoLogo pushSx={{ mr: 2 }} />
-            </A>
-            &nbsp;&
-            <A
-              href="https://videojs.com/"
-              target="_blank"
-              rel="noopener"
-              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
-            >
-              <VideoJSLogo pushSx={{ mr: 2 }} />
-            </A>
           </p>
           <Text variant="small">
             <A
