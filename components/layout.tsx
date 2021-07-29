@@ -108,6 +108,7 @@ export default function Layout({
         >
           <A href="/">
             <Container
+              style={{ textDecoration: "none" }}
               sx={{
                 display: "flex",
                 alignItems: "center"
