@@ -39,7 +39,7 @@ export default function Layout({
   url,
   withParticlesBackground,
   error
-}: Props) {
+}: Props): JSX.Element {
   const [hasScrolled, setHasScrolled] = useState(false);
 
   const handleScroll = useCallback(() => {
@@ -128,38 +128,59 @@ export default function Layout({
             height: footerHeight
           }}
         >
-          <Text sx={{ display: "flex", alignItems: "center" }} variant="small">
-            Powered by
-            <A
-              href="https://livepeer.org"
-              target="_blank"
-              rel="noopener"
-              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+          <p>
+            <Text
+              sx={{ display: "flex", alignItems: "center" }}
+              variant="small"
             >
-              <LivepeerLogo pushSx={{ mr: 2 }} />
-              Livepeer
-            </A>
-            &nbsp;&
-            <A
-              href="https://filecoin.io"
-              target="_blank"
-              rel="noopener"
-              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+              Powered by
+              <A
+                href="https://livepeer.org"
+                target="_blank"
+                rel="noopener"
+                sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+              >
+                <LivepeerLogo pushSx={{ mr: 2 }} />
+                Livepeer
+              </A>
+              &nbsp;&
+              <A
+                href="https://filecoin.io"
+                target="_blank"
+                rel="noopener"
+                sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+              >
+                <FilecoinLogo pushSx={{ mr: 2 }} />
+                Filecoin
+              </A>
+              &nbsp;&
+              <A
+                href="https://www.thetatoken.org/"
+                target="_blank"
+                rel="noopener"
+                sx={{ ml: "2px", display: "flex", alignItems: "center" }}
+              >
+                <Theta_TokenLogo pushSx={{ mr: 2 }} />
+                Theta CDN
+              </A>
+            </Text>
+            <Text
+              sx={{
+                color: "transparent",
+                height: "50px"
+              }}
             >
-              <FilecoinLogo pushSx={{ mr: 2 }} />
-              Filecoin
-            </A>
-            &nbsp;&
-            <A
-              href="https://www.thetatoken.org/"
-              target="_blank"
-              rel="noopener"
-              sx={{ ml: "2px", display: "flex", alignItems: "center" }}
+              line{"\n"}break
+            </Text>
+          </p>
+          <p>
+            <Text
+              sx={{ display: "flex", alignItems: "center" }}
+              variant="small"
             >
-              <Theta_TokenLogo pushSx={{ mr: 2 }} />
-              Theta CDN
-            </A>
-          </Text>
+              With the help of the projects :
+            </Text>
+          </p>
           <Text variant="small">
             <A
               href="https://github.com/goatgitt/crypto-player"
