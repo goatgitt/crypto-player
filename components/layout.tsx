@@ -106,24 +106,26 @@ export default function Layout({
             py: 4
           }}
         >
-          <Container
-            sx={{
-              display: "flex",
-              alignItems: "center"
-            }}
-          >
-            <MainLogo />
-            <b
+          <A href="/">
+            <Container
               sx={{
                 display: "flex",
-                alignItems: "start",
-                ml: "5px",
-                mr: "5px"
+                alignItems: "center"
               }}
             >
-              Crypto Player{" "}
-            </b>
-          </Container>
+              <MainLogo />
+              <b
+                sx={{
+                  display: "flex",
+                  alignItems: "start",
+                  ml: "5px",
+                  mr: "5px"
+                }}
+              >
+                Crypto Player{" "}
+              </b>
+            </Container>
+          </A>
           <Flex sx={{ alignItems: "center" }}>
             <A
               href="https://github.com/goatgitt/crypto-player"
