@@ -169,7 +169,7 @@ export default function Layout({
             <Text
               sx={{
                 color: "transparent",
-                height: "3px"
+                height: "5px"
               }}
             >
               line{"\n"}break
@@ -185,6 +185,7 @@ export default function Layout({
             >
               <FileVideoLogo pushSx={{ mr: 2 }} />
             </A>
+            &nbsp;&
             <A
               href="https://videojs.com/"
               target="_blank"
