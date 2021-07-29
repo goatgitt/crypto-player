@@ -106,7 +106,13 @@ export default function Layout({
             py: 4
           }}
         >
-          <A href="/">
+          <A
+            href="/"
+            sx={{
+              display: "flex",
+              textDecoration: "none"
+            }}
+          >
             <Container
               sx={{
                 display: "flex",
