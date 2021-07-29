@@ -3,7 +3,8 @@
 import { jsx, Container, NavLink, Flex, Link as A, Text, Box } from "theme-ui";
 import Head from "next/head";
 import Link from "next/link";
-import Logo from "./logos/file-video";
+import MainLogo from "./logos/mainlogo";
+import FileVideoLogo from "./logos/file-video";
 import LivepeerLogo from "./logos/livepeer";
 import FilecoinLogo from "./logos/filecoin";
 import GitHubLogo from "./logos/github";
@@ -104,10 +105,10 @@ export default function Layout({
             py: 4
           }}
         >
-          <Logo />
+          <MainLogo />
           <Flex sx={{ alignItems: "center" }}>
             <A
-              href="https://github.com/livepeer/file-video"
+              href="https://github.com/goatgitt/crypto-player"
               target="_blank"
               rel="noopener"
               sx={{ display: ["flex", "none"], alignItems: "center", ml: 4 }}
@@ -167,19 +168,16 @@ export default function Layout({
             <Text
               sx={{
                 color: "transparent",
-                height: "50px"
+                height: "3px"
               }}
             >
               line{"\n"}break
             </Text>
-          </p>
-          <p>
-            <Text
-              sx={{ display: "flex", alignItems: "center" }}
-              variant="small"
-            >
+
+            <Text sx={{ display: "flex", alignItems: "start" }} variant="small">
               With the help of the projects :
             </Text>
+            <FileVideoLogo />
           </p>
           <Text variant="small">
             <A

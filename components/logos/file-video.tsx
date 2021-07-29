@@ -3,7 +3,7 @@
 import { jsx } from "theme-ui";
 import Link from "next/link";
 
-const Logo = () => (
+const FileVideoLogo = () => (
   <Link href="/">
     <a>
       <svg
@@ -23,4 +23,4 @@ const Logo = () => (
   </Link>
 );
 
-export default Logo;
+export default FileVideoLogo;
