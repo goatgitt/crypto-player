@@ -34,7 +34,6 @@ const Theta_TokenLogo = ({ pushSx }: { pushSx?: SxStyleProp }) => (
       />
     </defs>
     <title>theta</title>
-    <path fill="#1b1f2b" d="M0 0h433v433H0z" />
     <path
       fill="#1b1f2b"
       stroke-linejoin="bevel"

@@ -149,6 +149,16 @@ export default function Layout({
               <FilecoinLogo pushSx={{ mr: 2 }} />
               Filecoin
             </A>
+            &nbsp;&
+            <A
+              href="https://docs.thetatoken.org/docs/theta-p2p-javascript-sdk"
+              target="_blank"
+              rel="noopener"
+              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+            >
+              <Theta_TokenLogo pushSx={{ mr: 2 }} />
+              Theta CDN
+            </A>
           </Text>
           <Text variant="small">
             <A
