@@ -151,7 +151,7 @@ export default function Layout({
             </A>
             &nbsp;&
             <A
-              href="https://docs.thetatoken.org/docs/theta-p2p-javascript-sdk"
+              href="https://www.thetatoken.org/"
               target="_blank"
               rel="noopener"
               sx={{ ml: "2px", display: "flex", alignItems: "center" }}
