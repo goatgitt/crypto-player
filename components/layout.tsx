@@ -108,20 +108,22 @@ export default function Layout({
         >
           <A href="/">
             <Container
-              style={{ textDecoration: "none" }}
               sx={{
                 display: "flex",
-                alignItems: "center"
+                alignItems: "center",
+                textDecoration: "none"
               }}
             >
               <MainLogo />
               <b
-                style={{ textDecoration: "none" }}
                 sx={{
+                  fontSize: "28px",
                   display: "flex",
                   alignItems: "start",
                   ml: "5px",
-                  mr: "5px"
+                  mr: "5px",
+                  textDecoration: "none",
+                  marginb: "auto"
                 }}
               >
                 Crypto Player{" "}
