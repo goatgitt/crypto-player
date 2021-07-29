@@ -116,6 +116,7 @@ export default function Layout({
             >
               <MainLogo />
               <b
+                style={{ textDecoration: "none" }}
                 sx={{
                   display: "flex",
                   alignItems: "start",
