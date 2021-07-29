@@ -8,6 +8,7 @@ import FileVideoLogo from "./logos/file-video";
 import LivepeerLogo from "./logos/livepeer";
 import FilecoinLogo from "./logos/filecoin";
 import GitHubLogo from "./logos/github";
+import VideoJSLogo from "./logos/videojs";
 import Theta_TokenLogo from "./logos/theta-token";
 import { footerHeight, navHeight } from "lib/constants";
 import { useState, useCallback, useEffect } from "react";
@@ -173,11 +174,25 @@ export default function Layout({
             >
               line{"\n"}break
             </Text>
-
             <Text sx={{ display: "flex", alignItems: "start" }} variant="small">
               With the help of the projects :
             </Text>
-            <FileVideoLogo />
+            <A
+              href="https://file.video/"
+              target="_blank"
+              rel="noopener"
+              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+            >
+              <FileVideoLogo pushSx={{ mr: 2 }} />
+            </A>
+            <A
+              href="https://videojs.com/"
+              target="_blank"
+              rel="noopener"
+              sx={{ ml: "12px", display: "flex", alignItems: "center" }}
+            >
+              <VideoJSLogo pushSx={{ mr: 2 }} />
+            </A>
           </p>
           <Text variant="small">
             <A
