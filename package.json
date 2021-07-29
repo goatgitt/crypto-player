@@ -19,7 +19,7 @@
     "@types/react" : "^17.0.0",
     "@types/react-dom" : "^17.0.0",
     "@sindresorhus/slugify": "^1.1.0",
-    "@videojs/http-streaming": "^2.2.3",
+    "@videojs/http-streaming": "^2.10.0",
     "cors": "^2.8.5",
     "hls.js": "^0.13.2",
     "next": "latest",
