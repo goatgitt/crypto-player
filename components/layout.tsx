@@ -7,6 +7,7 @@ import Logo from "./logos/file-video";
 import LivepeerLogo from "./logos/livepeer";
 import FilecoinLogo from "./logos/filecoin";
 import GitHubLogo from "./logos/github";
+import Theta_TokenLogo from "./logos/theta-token";
 import { footerHeight, navHeight } from "lib/constants";
 import { useState, useCallback, useEffect } from "react";
 import ParticlesBackground from "./particles-background";
@@ -26,7 +27,7 @@ Layout.defaultProps = {
   metaTitle: "file.video",
   metaDescription: "Decentralized Video hosting for everyone.",
   url: "https://file.video",
-  image: "https://file.video/OG.png",
+  image: "https://file.video/OG.png"
 };
 
 export default function Layout({
@@ -37,7 +38,7 @@ export default function Layout({
   loadTwitterWidget = false,
   url,
   withParticlesBackground,
-  error,
+  error
 }: Props) {
   const [hasScrolled, setHasScrolled] = useState(false);
 
@@ -92,7 +93,7 @@ export default function Layout({
           top: 0,
           bg: hasScrolled ? "rgba(0,0,0,.5)" : "rgba(0,0,0,0)",
           backdropFilter: hasScrolled ? "saturate(180%) blur(5px)" : undefined,
-          zIndex: "header",
+          zIndex: "header"
         }}
       >
         <Container
@@ -100,7 +101,7 @@ export default function Layout({
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            py: 4,
+            py: 4
           }}
         >
           <Logo />
@@ -130,7 +131,7 @@ export default function Layout({
             alignItems: "center",
             justifyContent: ["center", "space-between"],
             py: 3,
-            height: footerHeight,
+            height: footerHeight
           }}
         >
           <Text sx={{ display: "flex", alignItems: "center" }} variant="small">
