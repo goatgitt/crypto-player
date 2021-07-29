@@ -106,12 +106,6 @@ export default function Layout({
         >
           <Logo />
           <Flex sx={{ alignItems: "center" }}>
-            <Link href="/about" passHref>
-              <NavLink sx={{ mr: 4 }}>About</NavLink>
-            </Link>
-            <Link href="/faq" passHref>
-              <NavLink>FAQ</NavLink>
-            </Link>
             <A
               href="https://github.com/livepeer/file-video"
               target="_blank"
