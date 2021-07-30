@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@mux/mux-node": "^3.2.3",
-    "@mux/upchunk": "^2.0.0",
+    "@mux/upchunk": "^2.2.2",
     "@types/react-dom" : "^17.0.0",
     "@sindresorhus/slugify": "^1.1.0",
     "@videojs/http-streaming": "^2.2.3",

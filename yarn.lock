@@ -1158,13 +1158,13 @@
     esdoc-ecmascript-proposal-plugin "^1.0.0"
     jsonwebtoken "^8.4.0"
 
-"@mux/upchunk@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@mux/upchunk/-/upchunk-2.0.0.tgz#0eb34fc2d4c952283f375ab733b8e68e0ccdcab5"
-  integrity sha512-3K3+qtidmvZL6B7fFGl0fIvC5LMsY+OjPLfIV6f56s0ii0qPI2iwivAKmdndyJiUaRbw4pydve8lVEvJg+4ndw==
+"@mux/upchunk@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@mux/upchunk/-/upchunk-2.2.2.tgz#52d629d435b50c32b2fed39566501a2210446805"
+  integrity sha512-uaiQYdROFHM9LMasSJ0vDuwSv0nR/BxjkLOm11N2CIsynzz+Axfvy49Kg8r6Mq/DrRKsyrQP9z/Tl0LfAvX/aQ==
   dependencies:
     event-target-shim "^4.0.3"
-    xhr "^2.5.0"
+    xhr "^2.6.0"
 
 "@next/react-dev-overlay@9.4.4":
   version "9.4.4"
@@ -3646,14 +3646,6 @@ global@^4.3.1, global@^4.3.2, global@^4.4.0, global@~4.4.0:
     min-document "^2.19.0"
     process "^0.11.10"
 
-global@~4.3.0:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/global/-/global-4.3.2.tgz#e76989268a6c74c38908b1305b10fc0e394e9d0f"
-  integrity sha1-52mJJopsdMOJCLEwWxD8DjlOnQ8=
-  dependencies:
-    min-document "^2.19.0"
-    process "~0.5.1"
-
 globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
@@ -5597,11 +5589,6 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-process@~0.5.1:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/process/-/process-0.5.2.tgz#1638d8a8e34c2f440a91db95ab9aeb677fc185cf"
-  integrity sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8=
-
 promise-inflight@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
@@ -7120,12 +7107,12 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-xhr@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/xhr/-/xhr-2.5.0.tgz#bed8d1676d5ca36108667692b74b316c496e49dd"
-  integrity sha512-4nlO/14t3BNUZRXIXfXe+3N6w3s1KoxcJUUURctd64BLRe67E4gRwp4PjywtDY72fXpZ1y6Ch0VZQRY/gMPzzQ==
+xhr@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/xhr/-/xhr-2.6.0.tgz#b69d4395e792b4173d6b7df077f0fc5e4e2b249d"
+  integrity sha512-/eCGLb5rxjx5e3mF1A7s+pLlR6CGyqWN91fv1JgER5mVWg1MZmlhBvy9kjcsOdRk8RrIujotWyJamfyrp+WIcA==
   dependencies:
-    global "~4.3.0"
+    global "~4.4.0"
     is-function "^1.0.1"
     parse-headers "^2.0.0"
     xtend "^4.0.0"
