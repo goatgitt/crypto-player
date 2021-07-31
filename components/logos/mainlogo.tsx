@@ -16,7 +16,7 @@ const MainLogo = ({ pushSx }: { pushSx?: SxStyleProp }) => (
       width="57px"
       height="57px"
       viewBox="0 0 578 734"
-      enable-background="new 0 0 578 734"
+      enableBackground="new 0 0 578 734"
       xmlSpace="preserve"
     >
       {" "}
