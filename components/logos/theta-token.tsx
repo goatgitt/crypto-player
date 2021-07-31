@@ -20,9 +20,9 @@ const Theta_TokenLogo = ({ pushSx }: { pushSx?: SxStyleProp }) => (
         y2="320.73"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#2ab8e6" />
-        <stop offset=".53" stop-color="#29cad2" />
-        <stop offset="1" stop-color="#2ee4be" />
+        <stop offset="0" stopColor="#2ab8e6" />
+        <stop offset=".53" stopColor="#29cad2" />
+        <stop offset="1" stopColor="#2ee4be" />
       </linearGradient>
       <linearGradient
         id="b"
