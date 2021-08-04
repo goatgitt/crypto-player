@@ -1,7 +1,8 @@
+import React from 'react';
 interface New {
    message?: string
 }
-export default function ErrorMessage({ message }) {
+export default function ErrorMessage: React.FC<New> = ({ message }) => {
   return (
     <>
       <div className="message">{message || 'Unknown error'}</div>
