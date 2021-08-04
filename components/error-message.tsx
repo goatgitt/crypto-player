@@ -1,4 +1,4 @@
-interface new{
+interface New {
    message?: string
 }
 export default function ErrorMessage({ message }) {
