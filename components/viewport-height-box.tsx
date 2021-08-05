@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Box, BoxProps } from "theme-ui";
 import { footerHeight, navHeight } from "lib/constants";
 
