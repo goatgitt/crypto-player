@@ -5,6 +5,7 @@ import { useEffect, useRef, useState, useMemo } from "react";
 import Router from "next/router";
 import useSwr from "swr";
 import LoadingDots from "./loading-dots";
+import React from "react";
 
 const Resumable = require("rb-resumablejs/resumable");
 
