@@ -37,7 +37,7 @@ const UploadForm = ({ error, setError }: Props) => {
       refreshInterval: 5000,
       onError: (err) => {
         setError(err?.message ?? "Error creating upload");
-      },
+      }
     }
   );
 
@@ -58,7 +58,7 @@ const UploadForm = ({ error, setError }: Props) => {
       refreshInterval: 3000,
       onError: (err) => {
         setError(err?.message ?? "Error creating upload");
-      },
+      }
     }
   );
 
@@ -66,7 +66,7 @@ const UploadForm = ({ error, setError }: Props) => {
 
   useEffect(() => {
     if (asset) {
-      if (asset?.id && asset.ready == true) {
+      if (asset?.id && asset.ready === true) {
         Router.push("/v/[id]", `/v/${asset.id}`);
       } else if (asset?.id && asset.errors) {
         setError("Error streaming video");
@@ -86,8 +86,8 @@ const UploadForm = ({ error, setError }: Props) => {
       const res = await fetch(assetURL, {
         method: "POST",
         headers: {
-          Authorization: authHeader,
-        },
+          Authorization: authHeader
+        }
       });
       const { asset_id, url } = await res.json();
       setUploadId(asset_id);
@@ -116,7 +116,7 @@ const UploadForm = ({ error, setError }: Props) => {
 
     createUpload().then((targetUrl) => {
       const r = new Resumable({
-        target: targetUrl,
+        target: targetUrl
       });
       r.addFile(myfile);
       // TODO: Fallback to direct upload if Resumable.js isn't supported by the browser
@@ -159,7 +159,7 @@ const UploadForm = ({ error, setError }: Props) => {
             fontSize: "18px",
             minWidth: isUploading ? "270px" : undefined,
             display: "inline-flex",
-            justifyContent: "space-between",
+            justifyContent: "space-between"
           }}
           onClick={() => inputRef.current.click()}
           disabled={isUploading}
