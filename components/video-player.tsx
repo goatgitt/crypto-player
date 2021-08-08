@@ -60,7 +60,6 @@ async function getWalletAccessToken() {
             type: "application/vnd.apple.mpegurl",
           }],
           theta_hlsjs: {
-              videoId: "YOUR_INTERNAL_VIDEO_ID",
               userId: "YOUR_AUTHED_USER_ID",
               walletUrl: "wss://api-wallet-service.thetatoken.org/theta/ws",
               onWalletAccessToken: getWalletAccessToken,
