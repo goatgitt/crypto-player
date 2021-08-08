@@ -50,7 +50,7 @@ async function getWalletAccessToken() {
     return body.access_token;
 }
 
-
+  const optionalHlsOpts = null;
   useEffect(() => {
     if (videoEl == null) return;
 
