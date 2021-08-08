@@ -52,7 +52,6 @@ export default function VideoPlayer({ src, poster }) {
               onWalletAccessToken: getWalletAccessToken,
               hlsOpts: optionalHlsOpts
           }
-      }); 
       html5: {
         hls: {
           overrideNative: true,
