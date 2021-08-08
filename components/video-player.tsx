@@ -51,7 +51,7 @@ export default function VideoPlayer({ src, poster }) {
               walletUrl: "wss://api-wallet-service.thetatoken.org/theta/ws",
               onWalletAccessToken: getWalletAccessToken,
               hlsOpts: optionalHlsOpts
-          }
+          },
           html5: {
              hls: {
                overrideNative: true,
