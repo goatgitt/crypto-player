@@ -38,7 +38,7 @@ export default function VideoPlayer({ src, poster }) {
   useEffect(() => {
     if (videoEl == null) return;
 
-    const player = videojs(videoEl, {
+    const player = video.player = videojs(videoEl, {
       html5: {
         hls: {
           overrideNative: true,
