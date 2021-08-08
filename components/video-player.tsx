@@ -57,9 +57,7 @@ async function getWalletAccessToken() {
     const player = video.player = videojs(videoEl, {
       techOrder: ["theta_hlsjs", "html5"],
           sources: [{
-            src: "YOUR_VIDEO_URL",
             type: "application/vnd.apple.mpegurl",
-            label: "1080p"
           }],
           theta_hlsjs: {
               videoId: "YOUR_INTERNAL_VIDEO_ID",
