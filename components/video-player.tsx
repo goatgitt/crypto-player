@@ -39,6 +39,20 @@ export default function VideoPlayer({ src, poster }) {
     if (videoEl == null) return;
 
     const player = video.player = videojs(videoEl, {
+      techOrder: ["theta_hlsjs", "html5"],
+          sources: [{
+            src: "YOUR_VIDEO_URL",
+            type: "application/vnd.apple.mpegurl",
+            label: "1080p"
+          }],
+          theta_hlsjs: {
+              videoId: "YOUR_INTERNAL_VIDEO_ID",
+              userId: "YOUR_AUTHED_USER_ID",
+              walletUrl: "wss://api-wallet-service.thetatoken.org/theta/ws",
+              onWalletAccessToken: getWalletAccessToken,
+              hlsOpts: optionalHlsOpts
+          }
+      }); 
       html5: {
         hls: {
           overrideNative: true,
