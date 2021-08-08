@@ -84,6 +84,10 @@ export default function VideoPlayer({ src, poster }) {
   }, [copied]);
 
   return (
+    <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta.umd.min.js"></script>
+    <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta-hls-plugin.umd.min.js"></script>
+    <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/videojs-theta-plugin.min.js"></script>
+
     <div
       sx={{ textAlign: "center", maxWidth: "100%", width: "100%", mx: "auto" }}
     >
