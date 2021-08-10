@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactDOMServer from 'react-dom/server';
-
+import * from 'theme-ui';
 // any css-in-js or other libraries you want to use server-side
 import { ServerStyleSheet } from 'styled-components';
 import { renderStylesToString } from 'emotion-server';
