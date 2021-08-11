@@ -3,7 +3,7 @@ import {SxStyleProp} from "theme-ui";
 
 import AccordionItem from "./item"
 import  {AccordionItemProps}   from "./item";
-let sprop: typeof SxStyleProp 
+let sprop: typeof SxStyleProp;
 
 type Props = {
   items: AccordionItemProps[];
