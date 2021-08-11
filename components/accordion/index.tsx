@@ -1,6 +1,8 @@
-import { Box, SxStyleProp } from "theme-ui";
+import { Box } from "theme-ui";
+import { SxStyleProp } from "theme-ui";
+
 import AccordionItem from "./item"
-import  AccordionItemProps   from "./item";
+import  {AccordionItemProps}   from "./item";
 import { useState } from "react";
 
 type Props = {
