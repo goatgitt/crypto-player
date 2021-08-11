@@ -5,7 +5,7 @@ import AccordionItem from "./item"
 import  {AccordionItemProps}   from "./item";
 import { useState } from "react";
 
-const sprop = SxStyleProp 
+const sprop = typeof SxStyleProp 
 
 type Props = {
   items: AccordionItemProps[];
