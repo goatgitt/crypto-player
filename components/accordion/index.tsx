@@ -9,7 +9,7 @@ const sprop = SxStyleProp
 
 type Props = {
   items: AccordionItemProps[];
-  pushSx?: typeof sprop;
+  pushSx?: sprop;
 };
 
 export default function Accordion({ items, pushSx }: Props) {
