@@ -1,15 +1,15 @@
 import Box from "theme-ui";
-import SxStyleProp from "theme-ui";
+import {SxStyleProp} from "theme-ui";
 
 import AccordionItem from "./item"
 import  {AccordionItemProps}   from "./item";
 import { useState } from "react";
 
-const sprop = SxStyleProp
+
 
 type Props = {
   items: AccordionItemProps[];
-  pushSx?: typeof sprop;
+  pushSx?: SxStyleProp;
 };
 
 export default function Accordion({ items, pushSx }: Props) {
