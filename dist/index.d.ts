@@ -3,6 +3,7 @@ declare module "react"
 declare module "react-icons/fi"
 declare module "@sindresorhus/slugify"
 export const jsx: typeof React.createElement
+export * from "theme-ui"
 
 //interface SxProps {
 //  sx: SystemStyleObject
