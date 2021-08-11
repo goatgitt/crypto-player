@@ -5,9 +5,11 @@ import AccordionItem from "./item"
 import  {AccordionItemProps}   from "./item";
 import { useState } from "react";
 
+const sprop = SxStyleProp
+
 type Props = {
   items: AccordionItemProps[];
-  pushSx?: SxStyleProp;
+  pushSx?: sprop;
 };
 
 export default function Accordion({ items, pushSx }: Props) {
