@@ -3,9 +3,7 @@ import {SxStyleProp} from "theme-ui";
 
 import AccordionItem from "./item"
 import  {AccordionItemProps}   from "./item";
-import { useState } from "react";
-
-const sprop = typeof SxStyleProp 
+global SxStyleProp 
 
 type Props = {
   items: AccordionItemProps[];
