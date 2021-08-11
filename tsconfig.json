@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports":true,
     "noEmit": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
