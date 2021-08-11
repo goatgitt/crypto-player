@@ -9,7 +9,7 @@ interface SxProps {
 }
 
 type SxComponent = React.ComponentClass<SxProps>
-export const Box: SxComponent
+  export const Box: SxComponent
   export const Container: SxComponent
   export const Flex: SxComponent
   export const Header: SxComponent
