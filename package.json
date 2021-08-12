@@ -19,7 +19,7 @@
     "@sindresorhus/slugify": "^1.1.0",
     "@videojs/http-streaming": "^2.2.3",
     "cors": "^2.8.5",
-    "hls.js": "^1.0.8",
+    "hls.js": "^1.0.9",
     "next": "latest",
     "rb-resumablejs": "^1.1.2",
     "react": "^16.14.0",
