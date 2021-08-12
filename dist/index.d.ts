@@ -3,7 +3,6 @@ declare module "react"
 declare module "react-icons/fi"
 declare module "@sindresorhus/slugify"
 export const jsx: typeof React.createElement
-export * from "theme-ui"
 //theme-ui index.d.ts
 import * as React from 'react'
 import { StyledComponent } from '@emotion/styled'
