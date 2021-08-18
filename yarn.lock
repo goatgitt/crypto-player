@@ -1531,10 +1531,10 @@
     mux.js "5.12.2"
     video.js "^6 || ^7"
 
-"@videojs/http-streaming@^2.2.3":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@videojs/http-streaming/-/http-streaming-2.10.0.tgz#6b811673df5b1598af5269a8eb65faf423c2a9d2"
-  integrity sha512-MoAp5BbexEqvCdyyazWH3thXpuOOUt82qjKB37VumXQiSZfNrIFgJRgdXOwHqsO4iEksWHSQRhJNxlTDMSP4dg==
+"@videojs/http-streaming@^2.10.1":
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@videojs/http-streaming/-/http-streaming-2.10.1.tgz#91846efbccbad9fa4095970e5ed5c04bd95ef673"
+  integrity sha512-7OCdKHHA1oK9X7G13EP84gqCxXHgYwTbJ/9VY6cM+b++//fJtamadHqPC5tf3K+l5FcWgLRiryd0s14Nbo7mfQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@videojs/vhs-utils" "3.0.3"
