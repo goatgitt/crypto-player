@@ -40,7 +40,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
     "style-loader": "^3.2.1",
-    "webpack-dev-server": "^3.11.2",
+    "webpack-dev-server": "^4.7.1",
     "@types/node": "^16.11.11",
     "@types/react": "^17.0.17",
     "@types/theme-ui": "^0.3.6",
